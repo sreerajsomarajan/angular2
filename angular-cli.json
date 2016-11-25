@@ -4,9 +4,13 @@
     "name": "angular"
   },
   "apps": [
-    {"main": "src/main.ts", "tsconfig": "src/tsconfig.json"}
+    {
+      "main": "src/main.ts",
+      "tsconfig": "src/tsconfig.json",
+      "styles": ["../node_modules/font-awesome/css/font-awesome.css"]
+    }
   ],
-  "addons": [],
+  "addons": ["../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"],
   "packages": [],
   "e2e": {
     "protractor": {

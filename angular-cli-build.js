@@ -12,6 +12,15 @@ module.exports = function(defaults) {
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
       '@angular/**/*.js'
+
+      // Add following lines (1/2)
+      'angular2-fontawesome/*.+(js|js.map)',
+      'angular2-fontawesome/**/*.+(js|js.map)',
+      'angular2-fontawesome/**/**/*.+(js|js.map)',
+
+      // You need to add following lines as well (2/2)
+      'font-awesome/css/*.*',
+      'font-awesome/fonts/*.*'
     ]
   });
 };
